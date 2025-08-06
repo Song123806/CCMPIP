@@ -8,6 +8,9 @@ Proinflammatory peptides (PIPs) are short bioactive sequences that mediate immun
 
 - ProtT5：https://github.com/agemagician/ProtTrans
 
+## Dataset
+The complete dataset can be downloaded from: [[link](https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing)]
+
 ## Requirements
 ```
 pytorch==2.6.0+cu126  
