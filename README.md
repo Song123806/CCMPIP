@@ -9,7 +9,8 @@ Proinflammatory peptides (PIPs) are short bioactive sequences that mediate immun
 - ProtT5：https://github.com/agemagician/ProtTrans
 
 ## Dataset
-The complete dataset can be downloaded from: [(https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing)]
+The complete dataset can be downloaded from: 
+https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing
 
 ## Requirements
 ```
@@ -21,7 +22,8 @@ numpy==1.24.3
 
 ## Test on the model
 1. Prepare Test Data and Labels
-The complete dataset can be downloaded from: [(https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing)].
+The complete dataset can be downloaded from:
+https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing
 
 Prepare your test data and labels in the required input format. Use the getdatalist.py script to set them up.
 
