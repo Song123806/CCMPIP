@@ -25,7 +25,7 @@ The complete dataset can be downloaded from: [[link](https://drive.google.com/dr
 
 Prepare your test data and labels in the required input format. Use the getdatalist.py script to set them up.
 
-3. Run the Test Script
+2. Run the Test Script
 To test the model, run the following command:
 ```
 python model.py
