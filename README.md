@@ -21,10 +21,11 @@ numpy==1.24.3
 
 ## Test on the model
 1. Prepare Test Data and Labels
-The complete dataset can be downloaded from: [[link](https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing)]
+The complete dataset can be downloaded from: [[link](https://drive.google.com/drive/folders/1KH5jGkyJ3mLZrTu9D5xzqtuYHkikiDwx?usp=sharing)].
+
 Prepare your test data and labels in the required input format. Use the getdatalist.py script to set them up.
 
-2. Run the Test Script
+3. Run the Test Script
 To test the model, run the following command:
 ```
 python model.py
