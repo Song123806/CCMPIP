@@ -3,7 +3,8 @@
 ## Introduction
 Proinflammatory peptides (PIPs) are short bioactive sequences that mediate immune responses and contribute to various inflammatory diseases. Accurate identification of PIPs is essential for elucidating disease mechanisms and accelerating therapeutic development. However, sequence diversity and complexity make traditional wet‐lab assays time‐consuming and costly, highlighting the need for efficient computational solutions. Inspired by the success of pre-trained protein language models (PLMs) in protein recognition tasks, we present CCMPIP, a unified framework that fuses semantic embeddings from ProtT5 with physicochemical descriptors from AAindex via a cross‐attention mechanism. Peptide sequences are first encoded into dual feature matrices, which are then integrated by cross‐attention to capture interdependencies. The resulting representation is refined through cascading convolutional neural network (CNN) layers and a capsule network to model local patterns and hierarchical features, and finally classified by multilayer perceptron (MLP) under 5-fold cross-validation. Comparative experiments against recent ensemble predictors demonstrate CCMPIP’s superior predictive power. Moreover, interpretability analyses using attention heatmaps and STREME motif enrichment confirm that CCMPIP highlights biologically relevant residues, providing transparent insights into proinflammatory activity.
 
-![模型结构](https://github.com/user-attachments/assets/6cc917e9-d87f-47a5-a574-961ffaab876f)
+
+![Figure 1](https://github.com/user-attachments/assets/f5eb36aa-13d2-4f35-a7b6-8a2de08b739a)
 
 
 - ProtT5：https://github.com/agemagician/ProtTrans
